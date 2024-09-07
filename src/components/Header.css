@@ -1,0 +1,27 @@
+
+.header-container {
+    display: flex;
+    align-items: center;
+    height: 52px;
+    width: 100%;
+    justify-content: space-between;
+    padding: 0 10px;
+    overflow: hidden;
+    min-width: 1178px;
+}
+
+.header-item {
+    display: flex;
+    align-items: center;
+}
+.header-logo {
+    width: auto;
+    height: 40px;
+}
+
+.ant-menu-submenu-title > .ant-menu-title-content {
+    color: var(--ant-color-bg-container) !important;
+}
+.ant-menu-submenu-title > .ant-menu-item-icon {
+    color: var(--ant-color-bg-container) !important;
+}

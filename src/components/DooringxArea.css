@@ -1,0 +1,33 @@
+.widget-flyout {
+    width: 312px !important;
+    box-shadow: 4px 0 6px 0 rgba(136, 132, 146, .08);
+    background: #fff;
+    overflow: hidden;
+    border-radius: 4px;
+    transition: left .2s, bottom .2s;
+}
+
+.yh-left-top-wrapper > span {
+    visibility: hidden;
+}
+
+.yh-left-item-wrap {
+    transition: box-shadow .1s ease-in-out;
+}
+
+.yh-left-item-wrap:hover {
+    background: var(--ant-color-primary-hover);
+    border-color: var(--ant-color-primary-hover);
+    color: #fff;
+    box-shadow: 0 5px 12px 0 var(--ant-color-primary-bg-hover), 0 2px 4px 0 var(--ant-color-primary-bg-hover);
+    transform: translateY(-1px);
+}
+
+
+.right-pannel-tabdiv {
+    width: 290px !important;
+}
+
+.right-pannel-wrap {
+    width: 312px !important;
+}

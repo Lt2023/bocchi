@@ -1,0 +1,16 @@
+.layout {
+    width: 100%;
+    min-height: 100vh;
+}
+
+.header {
+    height: 52px;
+    width: 100%;
+    padding: 0;
+    background-color: var(--ant-color-primary);
+}
+
+.aside {
+    width: 100%;
+    transition: none !important;
+}

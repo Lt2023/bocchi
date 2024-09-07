@@ -1,0 +1,31 @@
+.blocklyDiv {
+    height: 100%;
+    width: 100%;
+}
+
+.blocklyText {
+    font-family: var(--ant-font-family) !important;
+    font-size: 16px !important;
+    font-weight: 400 !important;
+}
+
+.blocklyFlyoutBackground {
+    fill-opacity: 0;
+
+}
+
+.blocklyFlyout {
+    fill: #ffffff;
+    fill-opacity: 1;
+    background-color: #ffffff;
+    width: 312px;
+    overflow: hidden;
+    border-right: 1px solid #f2f2f2;
+    box-shadow: 4px 0 6px 0 rgba(136, 132, 146, .08);
+
+}
+
+.blocklyFlyout:hover {
+    max-width: 312px;
+    overflow: visible;
+}

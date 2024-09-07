@@ -1,0 +1,8 @@
+{
+  "token": {
+    "borderRadius": 4,
+    "wireframe": false,
+    "fontFamily": "NotoSansCJKsc, sans-serif",
+    "fontSize":14
+  }
+}

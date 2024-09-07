@@ -1,0 +1,35 @@
+:root {
+    /*font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;*/
+    /*line-height: 1.5;*/
+    /*font-weight: 400;*/
+    /*font-synthesis: none;*/
+    /*text-rendering: optimizeLegibility;*/
+    /*-webkit-font-smoothing: antialiased;*/
+    /*-moz-osx-font-smoothing: grayscale;*/
+    font-variant: tabular-nums;
+    background-color: #fff;
+    -webkit-font-feature-settings: "tnum";
+    font-feature-settings: "tnum";
+}
+
+body {
+    margin: 0;
+    display: flex;
+    place-items: center;
+    min-width: 320px;
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+#root,
+html,
+body {
+    height: 100%;
+    width: 100%;
+    user-select: none;
+}
+
+
+::-webkit-scrollbar {
+    width: 0;
+}

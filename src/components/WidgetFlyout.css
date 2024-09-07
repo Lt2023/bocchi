@@ -1,0 +1,8 @@
+.widget-flyout {
+    position: absolute;
+    z-index: 100;
+    width: 400px;
+    background-color: var(--ant-color-bg-layout);
+    height: calc(100vh - 52px);
+    border-radius: 0 16px 16px 0;
+}
